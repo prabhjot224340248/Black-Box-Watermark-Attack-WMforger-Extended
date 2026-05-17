@@ -1,7 +1,7 @@
 # Query-Based Black-Box Forgery Attacks Against Deep Learning Image Watermarking Systems
 
 **Author:** Prabhjot Singh | SIT724 Research Project | Deakin University, Trimester 1 2026  
-**Research Supervisor:** [Supervisor Name]
+**Research Supervisor:** Prof. Yong Xiang
 
 ---
 
