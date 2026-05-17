@@ -113,23 +113,17 @@ pip install python-docx    # for report generation only
 ### Running the Experiments
 
 ```bash
-# 1. Validate all 4 model APIs
-python test_all_models.py
-
-# 2. Run baseline heatmap (original preference model)
+# 1. Run baseline heatmap (original preference model)
 python heatmap_experiment_v2.py
 
-# 3. Fine-tune the preference model on domain-specific watermarks
+# 2. Fine-tune the preference model on domain-specific watermarks
 python finetune_preference_model.py
 
-# 4. Run heatmap with fine-tuned model
+# 3. Run heatmap with fine-tuned model
 python heatmap_experiment_finetuned.py
 
-# 5. Run v4 improved attack
+# 4. Run v4 improved attack
 python heatmap_experiment_v4.py
-
-# 6. Run full CIN forgery pipeline
-python cin_full_forgery_attack.py
 ```
 
 ### Hardware Requirements
