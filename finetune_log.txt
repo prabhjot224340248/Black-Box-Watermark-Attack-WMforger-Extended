@@ -1,0 +1,40 @@
+=======================================================
+  FINE-TUNING PREFERENCE MODEL — Thesis Contribution
+  Started : 2026-05-16 05:08:57
+  Device  : cuda
+  Images  : 300 per model
+  Epochs  : 5
+  LR      : 1e-05
+  Goal    : Teach forger to recognise CIN/TrustMark/MBRS/HiDDeN watermarks
+=======================================================
+
+Selected 300 COCO images (seed=42)
+
+Generating CLEAN images (300) ...
+  Clean samples: 300
+
+Generating WATERMARKED images — CIN ...
+  CIN watermarked samples: 300
+
+Generating WATERMARKED images — TrustMark ...
+  TrustMark watermarked samples: 300
+
+Generating WATERMARKED images — MBRS ...
+  MBRS watermarked samples: 300
+
+Generating WATERMARKED images — HiDDeN ...
+  HiDDeN watermarked samples: 300
+
+Total training samples: 1500  (clean=300, watermarked=1200)
+
+Loading preference model for fine-tuning ...
+  Loaded.
+
+=======================================================
+  Fine-tuning starts — 5 epochs, LR=1e-05, batch=16
+=======================================================
+  Epoch [1/5]  Loss=0.3195  Acc=67.5%  Time=115.9s  LR=9.14e-06
+  Epoch [2/5]  Loss=0.2113  Acc=78.9%  Time=115.8s  LR=6.89e-06
+  Epoch [3/5]  Loss=0.2092  Acc=79.1%  Time=116.2s  LR=4.11e-06
+  Epoch [4/5]  Loss=0.2073  Acc=79.3%  Time=116.9s  LR=1.86e-06
+  Epoch [5/5]  Loss=0.2067  Acc=79.3%  Time=115.0s  LR=1.00e-06

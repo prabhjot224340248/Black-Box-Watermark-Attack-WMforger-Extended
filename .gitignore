@@ -1,0 +1,37 @@
+# ── Model checkpoints (too large for GitHub) ──────────────────────────────────
+*.pth
+*.pt
+*.ckpt
+*.pyt
+checkpoints/**/*
+!checkpoints/**/.gitkeep
+
+# ── TrustMark model weights ────────────────────────────────────────────────────
+victim_models/TrustMark/trustmark/models/
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── Jupyter notebooks ─────────────────────────────────────────────────────────
+*.ipynb
+.ipynb_checkpoints/
+
+# ── Experiment internals (not needed for reproducibility) ─────────────────────
+progress.log
+notify_state.txt
+
+# ── Environment ───────────────────────────────────────────────────────────────
+.env
+*.egg-info/
+dist/
+build/
+
+# ── Large datasets (download COCO val2017 separately) ─────────────────────────
+dataset/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
